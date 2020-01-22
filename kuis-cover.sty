@@ -115,7 +115,7 @@
      \monthname[\@COMPLETIONMONTH] {\@COMPLETIONYEAR} of Completion\cr%
      \else
      平成{\@ENTRANCEYEAR}年{\@ENTRANCEMONTH}月入学\cr
-     平成{\@COMPLETIONYEAR}年{\@COMPLETIONMONTH}月\MKT@GRADUATE\cr%
+     令和{\@COMPLETIONYEAR}年{\@COMPLETIONMONTH}月\MKT@GRADUATE\cr%
      \fi}}}%
    \vskip2cm
    \CL{\Large \@AUTHOR}%
@@ -143,7 +143,8 @@
    \ifDS@en
    \@COMPLETIONSYEAR
    \else
-   平成\rensuji{\@COMPLETIONSYEAR}年度
+  %  令和\rensuji{\@COMPLETIONSYEAR}年度
+   令和\rensuji{元}年度
    \fi
    \quad
   }%
